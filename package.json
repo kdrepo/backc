@@ -1,0 +1,48 @@
+{
+  "name": "can-paltform",
+  "version": "1.0.0",
+  "description": "-This is a cancer patient community platform",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "@abhishek",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1532.0",
+    "axios": "^1.6.5",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "const": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-validator": "^7.0.1",
+    "fast-two-sms": "^3.0.0",
+    "fast2sms": "^1.0.3",
+    "fs": "^0.0.1-security",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^3.0.1",
+    "node-sass": "^9.0.0",
+    "nodemailer": "^6.9.13",
+    "pdfkit": "^0.15.0",
+    "qs": "^6.12.1",
+    "razorpay": "^2.9.4",
+    "twilio": "^4.20.0",
+    "zoomus": "^0.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "nodemon": "^3.1.7"
+  }
+}
